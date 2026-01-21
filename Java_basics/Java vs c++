@@ -1,0 +1,12 @@
+## Java vs C++
+
+| Feature        | Java                          | C++                          |
+|---------------|-------------------------------|------------------------------|
+| Compilation   | Bytecode (JVM)                | Machine code                 |
+| Platform      | Platform-independent          | Platform-dependent           |
+| Memory Mgmt   | Automatic (Garbage Collector) | Manual (`new` / `delete`)    |
+| Pointers      | No direct pointers            | Yes                          |
+| OOP           | Mostly pure OOP               | OOP + Procedural             |
+| Performance   | Slightly slower               | Faster                       |
+| Safety        | More secure                   | Less secure                  |
+| Use Cases     | Web, Android, Enterprise      | Games, OS, Embedded systems  |
