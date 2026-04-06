@@ -12,8 +12,8 @@ public class Arrays_basics {
         for(int i=0;i< arr1.length;i++){
             arr1[i]=in.nextInt();
         }
-        for(int i=0;i<arr1.length;i++){
-            System.out.print(arr1[i] + " ");
+        for (int j : arr1) {
+            System.out.print(j + " ");
         }
         System.out.println();
         for(int num: arr1){
